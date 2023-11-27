@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link Stylesheet-->
+    <link rel="Stylesheet" href="./style.css"/>
+    <!--Link Script-->
+    <script defer src="./script.js">
+        let text = "X";
+        let result = text.fontcolor("blue");
+    
+    </script>
+
+
+</head>
+
+<body>
+
+    <div id="main">
+        <h1>Tic Tac Doom</h1>
+        <p id="ins">
+        click on a square to start the game.<br>first player with 3 in a row wins</br>
+        </p>
+        <div class = "ui">
+            <div class="row">
+                <input type="text" id="a1"
+                class="cell" onclick="myfunct_3(); myfunct();"
+                readonly>
+                <input type="text" id="a2"
+                class="cell" onclick="myfunct_4(); myfunct();"
+                readyonly>
+                <input type="text" id="a3"
+                class="cell" onclick="myfunct_5(); myfunct();"
+                readonly>
+            </div>
+
+ <div class="row">
+        <input type="text" id="a4"
+        class="cell" onclick="myfunct_6(); myfunct();"
+        readonly>
+        <input type="text" id="a5"
+        class="cell" onclick="myfunct_7(); myfunct();"
+        readonly>
+        <input type="text" id="a6"
+        class="cell" onclick="myfunct_8(); myfunct();"
+        readonly>
+    </div>
+    <div class="row">
+        <input type="text" id="a7"
+        class="cell" onclick="myfunct_9(); myfunct();"
+        readonly>
+        <input type="text" id="a8"
+        class="cell" onclick="myfunct_10(); myfunct();"
+        readonly>
+        <input type="text" id="a9"
+        class="cell" onclick="myfunct_11(); myfunct();"
+        readonly>
+    </div>
+        </div>
+        <br><br><br>
+        <button id="reset">Reset</button>
+        <br><br>
+        <p id="print"></p> 
+        </div>
+
+    
+</body>
+</html>
