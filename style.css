@@ -1,0 +1,123 @@
+body {
+    color:black;
+    margin-bottom: 100px;
+    
+}
+p {
+    margin-bottom: 100px;
+}
+.ui {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row {
+    display: flex;
+}
+.square {
+    border: black;
+    border-collapse: collapse;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.cell:active {
+    outline: none;
+}
+
+input {width:200px;
+height:200px;
+font-size: 100px;
+text-align: center;
+color: blueviolet;
+}
+
+
+
+
+/*3*3 grid*/
+#a1{
+    border-bottom: 1px solid black;
+    border-left: 0px;
+    border-top: 0px;
+    
+}
+#a2{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 0px;
+}
+#a3{
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-top: 0px;
+    border-right: 0px;
+}
+#a4{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 0px;
+}
+#a5{
+    border: 1px solid black;
+}
+#a6{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 0px;
+}
+#a7{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 0px;
+    border-bottom: 0px;
+}
+#a8{
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 0px;
+}
+#a9{
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 0px;
+    border-bottom: 0px;
+}
+/*Reset Button*/
+#but {
+    box-sizing: border-box;
+    width: 100px;
+    height: 50px;
+    margin-left: auto;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: antiquewhite;
+    color: blue;
+    font-size: 30px;
+    cursor: pointer;
+}
+/*Player turn spaces*/
+#print {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    font-size: 50px;
+}
+/*Main Container*/
+#main {
+    text-align: center;
+}
+/*Game Instruction text*/
+#ins {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+
